@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+        <parent>
+                <groupId>org.sonatype.oss</groupId>
+                <artifactId>oss-parent</artifactId>
+                <version>7</version>
+        </parent>
+	<groupId>uk.me.m0rjc</groupId>
+	<artifactId>pi-a2dp</artifactId>
+	<version>0.1-SNAPSHOT</version>
+	<organization>
+		<name>Richard Corfield</name>
+	</organization>
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<id>m0rjc</id>
+			<name>Richard Corfield</name>
+			<email>m0rjc@m0rjc.me.uk</email>
+			<timezone>0</timezone>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:git:git://github.com/m0rjc/PiA2DP.git</connection>
+		<developerConnection>scm:git:ssh://git@github.com/m0rjc/PiA2DP.git</developerConnection>
+		<url>https://github.com/m0rjc/PiA2DP</url>
+	</scm>
+	<description>Get A2DP working on a Raspberry Pi</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>1.9.0-rc1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1-b06</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+	<url>http://github.com/m0rjc/PiA2DP</url>
+	<inceptionYear>2013</inceptionYear>
+	<packaging>war</packaging>
+</project>
